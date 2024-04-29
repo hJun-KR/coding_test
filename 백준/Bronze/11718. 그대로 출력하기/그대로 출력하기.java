@@ -7,7 +7,7 @@ public class Main {
         while (sc.hasNextLine()) {
             String str = sc.nextLine();
             System.out.println(str);
-            if(str.isEmpty() || str.length() > 1000) {
+            if(str == null) {
                 break;
             }
         }
