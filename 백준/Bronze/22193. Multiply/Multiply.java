@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.math.BigInteger;
 
 public class Main {
     public static void main (String[] args) {
@@ -6,10 +7,10 @@ public class Main {
         
         int a = sc.nextInt();
         int b = sc.nextInt();
-        long c = sc.nextLong();
-        long d = sc.nextLong();
+        BigInteger c = sc.nextBigInteger();
+        BigInteger d = sc.nextBigInteger();
         
-        System.out.println(c * d);
+        System.out.println(c.multiply(d));
         
     }
 }
