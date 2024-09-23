@@ -6,8 +6,8 @@ public class Main {
         
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int c = sc.nextInt();
-        int d = sc.nextInt();
+        long c = sc.nextLong();
+        long d = sc.nextLong();
         
         System.out.println(c * d);
         
